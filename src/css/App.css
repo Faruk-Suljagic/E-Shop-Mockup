@@ -1,0 +1,31 @@
+html,
+body {
+  background-image: url(../css/images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+.contents {
+  min-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.maxwidth {
+  text-align: left;
+  max-width: 85%;
+  height: auto * 2;
+  background-color: rgba(172, 171, 171, 0.247);
+  border-radius: 4px;
+}
+.prodsText {
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin: 5px;
+  text-decoration: underline;
+}
